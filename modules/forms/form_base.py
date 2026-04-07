@@ -32,9 +32,10 @@ def crear_form_base(dict_for_data: dict) -> dict:
 
 def encender_musica(dict_form_datos: dict):
     """
+    Enciende la musica de todos los forms
 
     Args:
-        dict_form_dict (dict): _description_
+        dict_form_dict (dict): El diccionario de datos de form
     """
 
     if dict_form_datos.get("config_musica").get("musica_encendida"):
@@ -44,10 +45,10 @@ def encender_musica(dict_form_datos: dict):
 
 
 def apagar_musica(dict_form_datos: dict):
-    """_summary_
+    """Apaga la musica de todos los forms
 
     Args:
-        dict_form_datos (dict): _description_
+        dict_form_datos (dict): El diccionario de datos de form
     """
 
     if not dict_form_datos.get("config_musica").get("musica_encendida"):

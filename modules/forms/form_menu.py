@@ -10,7 +10,7 @@ from utn_fra.pygame_widgets import(
 
 def crear_form_menu(dict_for_data: dict) -> dict:
     """
-
+    Crea el menu form
 
     Args:
         dict_for_data (dict): _description_
