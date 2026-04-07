@@ -6,7 +6,6 @@ FPS = 60
 #==================================================================
 
 #RUTAS_IMAGENES
-RUTA_LOGO = "assets/img/logo.png"
 RUTA_POINTER = "assets/img/cursor/shiruken.png"
 PANTALLA_INICIO = "assets/img/background/home.jpg"
 PANTALLA_MENU = "assets/img/background/menu.jpg"

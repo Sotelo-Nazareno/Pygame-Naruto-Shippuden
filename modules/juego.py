@@ -3,7 +3,7 @@ import modules.forms.form_controlador as fcontrol
 import modules.variables as var
 import random as rd
 from .variables import(
-    PANTALLA, TITULO, FPS, VOL_MUSICA
+    PANTALLA, TITULO, FPS, VOL_MUSICA, RUTA_POINTER
 )
 
 
@@ -17,6 +17,8 @@ def run_game():
 
     pg.display.set_caption(TITULO)
     pantalla_principal = pg.display.set_mode(PANTALLA, pg.RESIZABLE)
+    logo = pg.image.load(RUTA_POINTER)
+    pg.display.set_icon(logo)
 
 
     corriendo = True
